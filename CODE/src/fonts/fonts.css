@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat-Bold'), local('Montserrat-Bold'), url('Montserrat-Bold.woff') format('woff'), url('Montserrat-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyriadPro';
+    src: local('MyriadPro'), local('MyriadPro'), url('MyriadPro-Black.woff') format('woff'), url('MyriadPro-Black.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
