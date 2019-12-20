@@ -1,23 +1,23 @@
-                    @import "../fonts/fonts.css"screen;
-                    .first {
-                        position: relative;
-                        height: 850px;
-                        background-image: url(../img/background.jpg);
-                        background-repeat: no-repeat;
-                        background-size: cover;
-                    }
-                    
+                @import "../fonts/fonts.css"screen;
+                .first {
+                    position: relative;
+                    height: 850px;
+                    background-image: url(../img/background.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .logo {
+                    padding-top: 43px;
+                    padding-left: 71px;
+                }
+
+                @media (max-width: 576px) {
                     .logo {
-                        padding-top: 43px;
-                        padding-left: 71px;
+                        padding-left: 180px;
                     }
-                    
-                    @media (max-width: 576px) {
-                        .logo {
-                            padding-left: 180px;
-                        }
-                    }
-                    /* .menu {
+                }
+                /* .menu {
                         padding-top: 43px;
                         padding-right: 79px;
                         padding-left: 450px;
@@ -48,391 +48,399 @@
                             padding-left: 30px;
                         }
                     } */
-                    
-                    .title_up h2 {
-                        padding-top: 225px;
-                        /* margin-left: 610px; */
-                        padding-top: 7px;
-                        padding-bottom: 7px;
-                        text-align: center;
-                        color: #60606e;
-                        font-family: Montserrat;
-                        font-size: 18px;
-                        font-weight: bold;
-                        text-transform: uppercase;
-                        width: 99px;
-                        /* height: 30px; */
-                        background-color: #7beec7;
-                        margin-bottom: 0px;
+
+                .title_up h2 {
+                    padding-top: 225px;
+                    /* margin-left: 610px; */
+                    padding-top: 7px;
+                    padding-bottom: 7px;
+                    text-align: center;
+                    color: #60606e;
+                    font-family: Montserrat;
+                    font-size: 18px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    width: 99px;
+                    /* height: 30px; */
+                    background-color: #7beec7;
+                    margin-bottom: 0px;
+                }
+
+                @media (max-width: 560px) {
+                    .title_up {
+                        padding-left: 200px;
                     }
-                    
-                    @media (max-width: 560px) {
-                        .title_up {
-                            padding-left: 200px;
-                        }
+                }
+
+                .title_middel h1 {
+                    color: #60606e;
+                    font-family: "Myriad Pro";
+                    font-size: 48px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    text-align: center;
+                    width: 555px;
+                    border: 10px solid #60606e;
+                    padding-top: 10px;
+                }
+
+                .title_down p {
+                    color: #60606e;
+                    font-family: "Myriad Pro";
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+
+                @media (max-width: 560px) {
+                    .title_down {
+                        padding-left: 100px;
                     }
-                    
-                    .title_middel h1 {
-                        color: #60606e;
-                        font-family: "Myriad Pro";
-                        font-size: 48px;
-                        font-weight: 400;
-                        text-transform: uppercase;
-                        text-align: center;
-                        width: 555px;
-                        border: 10px solid #60606e;
-                        padding-top: 10px;
-                    }
-                    
-                    .title_down p {
-                        color: #60606e;
-                        font-family: "Myriad Pro";
-                        font-size: 18px;
-                        font-weight: 400;
-                    }
-                    
-                    @media (max-width: 560px) {
-                        .title_down {
-                            padding-left: 100px;
-                        }
-                    }
-                    
+                }
+
+                .photo {
+                    width: auto;
+                    position: absolute;
+                    top: 70%;
+                    left: 7%;
+                    /* padding-left: 55px; */
+                }
+
+                @media (max-width: 780px) {
                     .photo {
+                        padding-top: 200px;
                         width: auto;
-                        position: absolute;
-                        top: 70%;
-                        left: 7%;
-                        /* padding-left: 55px; */
+                        left: 3%;
                     }
-                    
-                    @media (max-width: 780px) {
-                        .photo {
-                            padding-top: 200px;
-                            width: auto;
-                            left: 3%;
-                        }
-                    }
-                    
+                }
+
+                .text {
+                    padding-top: 270px;
+                }
+
+                .text h1 {
+                    color: #60606e;
+                    font-family: "Myriad Pro";
+                    font-size: 30px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+
+                .text p {
+                    margin-top: 30px;
+                    color: #60606e;
+                    font-family: "Myriad Pro";
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+
+                @media (max-width: 780px) {
                     .text {
-                        padding-top: 270px;
+                        padding-top: 600px;
                     }
-                    
-                    .text h1 {
-                        color: #60606e;
-                        font-family: "Myriad Pro";
-                        font-size: 30px;
-                        font-weight: 400;
-                        text-transform: uppercase;
-                    }
-                    
-                    .text p {
-                        margin-top: 30px;
-                        color: #60606e;
-                        font-family: "Myriad Pro";
-                        font-size: 16px;
-                        font-weight: 400;
-                    }
-                    
-                    @media (max-width: 780px) {
-                        .text {
-                            padding-top: 600px;
-                        }
-                    }
-                    
+                }
+
+                .button {
+                    position: absolute;
+                    top: 115%;
+                    left: 70%;
+                }
+
+                .button button {
+                    text-align: center;
+                    margin-top: 67px;
+                    border: none;
+                    width: 165px;
+                    height: 50px;
+                    background-color: #7beec7;
+                    color: #ffffff;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+
+                @media (max-width: 780px) {
                     .button {
-                        position: absolute;
-                        top: 115%;
-                        left: 70%;
+                        top: 100%;
+                        left: 50%;
                     }
-                    
-                    .button button {
-                        text-align: center;
-                        margin-top: 67px;
-                        border: none;
-                        width: 165px;
-                        height: 50px;
-                        background-color: #7beec7;
-                        color: #ffffff;
-                        font-family: Montserrat;
-                        font-size: 14px;
-                        font-weight: 700;
-                        text-transform: uppercase;
-                    }
-                    
-                    @media (max-width: 780px) {
-                        .button {
-                            top: 100%;
-                            left: 50%;
-                        }
-                    }
-                    
+                }
+
+                .reason h1 {
+                    padding-top: 242px;
+                    padding-left: 472px;
+                    color: #60606e;
+                    font-family: "Myriad Pro";
+                    font-size: 30px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+
+                .reason p {
+                    text-align: center;
+                    padding-left: 275px;
+                    padding-right: 274px;
+                    color: #60606e;
+                    font-family: "Myriad Pro";
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+
+                @media (max-width: 780px) {
                     .reason h1 {
-                        padding-top: 242px;
-                        padding-left: 472px;
-                        color: #60606e;
-                        font-family: "Myriad Pro";
-                        font-size: 30px;
-                        font-weight: 400;
-                        text-transform: uppercase;
+                        padding-top: 450px;
+                        padding-left: 50px;
                     }
-                    
+                }
+
+                @media (max-width: 780px) {
                     .reason p {
-                        text-align: center;
-                        padding-left: 275px;
-                        padding-right: 274px;
-                        color: #60606e;
-                        font-family: "Myriad Pro";
-                        font-size: 14px;
-                        font-weight: 400;
+                        padding-top: 30px;
+                        padding-left: 15px;
+                        padding-right: 0px;
                     }
-                    
-                    @media (max-width: 780px) {
-                        .reason h1 {
-                            padding-top: 450px;
-                            padding-left: 50px;
-                        }
-                    }
-                    
-                    @media (max-width: 780px) {
-                        .reason p {
-                            padding-top: 30px;
-                            padding-left: 15px;
-                            padding-right: 0px;
-                        }
-                    }
-                    
-                    .variant {
-                        padding-top: 122px;
-                    }
-                    
-                    .variant_first {
-                        padding-top: 10px;
-                        padding-right: 63px;
-                        padding-left: 40px;
-                        line-height: 27px;
-                    }
-                    
-                    .variant_first img {
-                        padding-bottom: 17px;
-                    }
-                    
-                    .variant_first h4 {
-                        color: #60606e;
-                        font-family: "Myriad Pro";
-                        font-size: 18px;
-                        font-weight: 400;
-                        text-transform: uppercase;
-                    }
-                    
-                    .variant_first p {
-                        color: #999999;
-                        font-family: "Myriad Pro";
-                        font-size: 14px;
-                        font-weight: 400;
-                        text-transform: uppercase;
-                    }
-                    
+                }
+
+                .variant {
+                    padding-top: 122px;
+                }
+
+                .variant_first {
+                    padding-top: 10px;
+                    padding-right: 63px;
+                    padding-left: 40px;
+                    line-height: 27px;
+                }
+
+                .variant_first img {
+                    padding-bottom: 17px;
+                }
+
+                .variant_first h4 {
+                    color: #60606e;
+                    font-family: "Myriad Pro";
+                    font-size: 18px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+
+                .variant_first p {
+                    color: #999999;
+                    font-family: "Myriad Pro";
+                    font-size: 14px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+
+                .variant_second {
+                    padding-left: 30px;
+                    line-height: 27px;
+                }
+
+                @media (max-width: 780px) {
                     .variant_second {
-                        padding-left: 30px;
-                        line-height: 27px;
+                        padding-left: 35px;
                     }
-                    
-                    @media (max-width: 780px) {
-                        .variant_second {
-                            padding-left: 35px;
-                        }
-                    }
-                    
-                    .variant_second img {
-                        padding-bottom: 17px;
-                    }
-                    
-                    .variant_second h4 {
-                        color: #60606e;
-                        font-family: "Myriad Pro";
-                        font-size: 18px;
-                        font-weight: 400;
-                        text-transform: uppercase;
-                    }
-                    
-                    .variant_second p {
-                        color: #999999;
-                        font-family: "Myriad Pro";
-                        font-size: 14px;
-                        font-weight: 400;
-                        text-transform: uppercase;
-                    }
-                    
-                    .gift {
-                        padding-top: 154px;
-                    }
-                    
-                    .gift_first {
-                        padding-left: 30px;
-                        /* padding-right: 120px; */
-                        line-height: 27px;
-                    }
-                    
-                    .gift_first img {
-                        padding-bottom: 19px;
-                    }
-                    
-                    .gift_first h4 {
-                        color: #60606e;
-                        font-family: "Myriad Pro";
-                        font-size: 18px;
-                        font-weight: 400;
-                        text-transform: uppercase;
-                    }
-                    
-                    .gift_first p {
-                        color: #999999;
-                        font-family: "Myriad Pro";
-                        font-size: 14px;
-                        font-weight: 400;
-                        text-transform: uppercase;
-                    }
-                    
+                }
+
+                .variant_second img {
+                    padding-bottom: 17px;
+                }
+
+                .variant_second h4 {
+                    color: #60606e;
+                    font-family: "Myriad Pro";
+                    font-size: 18px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+
+                .variant_second p {
+                    color: #999999;
+                    font-family: "Myriad Pro";
+                    font-size: 14px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+
+                .gift {
+                    padding-top: 154px;
+                }
+
+                .gift_first {
+                    padding-left: 30px;
+                    /* padding-right: 120px; */
+                    line-height: 27px;
+                }
+
+                .gift_first img {
+                    padding-bottom: 19px;
+                }
+
+                .gift_first h4 {
+                    color: #60606e;
+                    font-family: "Myriad Pro";
+                    font-size: 18px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+
+                .gift_first p {
+                    color: #999999;
+                    font-family: "Myriad Pro";
+                    font-size: 14px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+
+                .gift_second {
+                    padding-left: 135px;
+                    /* padding-right: 121px; */
+                    line-height: 27px;
+                }
+
+                @media (max-width: 780px) {
                     .gift_second {
-                        padding-left: 135px;
-                        /* padding-right: 121px; */
-                        line-height: 27px;
+                        padding-left: 100px;
                     }
-                    
-                    @media (max-width: 780px) {
-                        .gift_second {
-                            padding-left: 100px;
-                        }
-                    }
-                    
-                    .gift_second img {
-                        padding-bottom: 19px;
-                    }
-                    
-                    .gift_second h4 {
-                        font-family: "Myriad Pro";
-                        font-size: 18px;
-                        font-weight: 400;
-                        text-transform: uppercase;
-                    }
-                    
-                    .gift_second p {
-                        color: #999999;
-                        font-family: "Myriad Pro";
-                        font-size: 14px;
-                        font-weight: 400;
-                        text-transform: uppercase;
-                    }
-                    
+                }
+
+                .gift_second img {
+                    padding-bottom: 19px;
+                }
+
+                .gift_second h4 {
+                    font-family: "Myriad Pro";
+                    font-size: 18px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+
+                .gift_second p {
+                    color: #999999;
+                    font-family: "Myriad Pro";
+                    font-size: 14px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+
+                .reason_photo {
+                    width: auto;
+                    padding-top: 102px;
+                    padding-right: 43px;
+                }
+
+                @media (max-width: 780px) {
                     .reason_photo {
-                        width: auto;
-                        padding-top: 102px;
-                        padding-right: 43px;
+                        padding-right: 39px
                     }
-                    
-                    @media (max-width: 780px) {
-                        .reason_photo {
-                            padding-right: 39px
-                        }
-                    }
-                    
+                }
+
+                .works {
+                    padding-top: 228px;
+                }
+
+                @media (max-width: 780px) {
                     .works {
-                        padding-top: 228px;
+                        padding-top: 100px;
                     }
-                    
-                    @media (max-width: 780px) {
-                        .works {
-                            padding-top: 100px;
-                        }
-                    }
-                    
+                }
+
+                .works h1 {
+                    padding-left: 489px;
+                    color: #60606e;
+                    font-family: "Myriad Pro";
+                    font-size: 30px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+
+                @media (max-width: 780px) {
                     .works h1 {
-                        padding-left: 489px;
-                        color: #60606e;
-                        font-family: "Myriad Pro";
-                        font-size: 30px;
-                        font-weight: 400;
-                        text-transform: uppercase;
+                        padding-left: 100px;
                     }
-                    
-                    @media (max-width: 780px) {
-                        .works h1 {
-                            padding-left: 100px;
-                        }
-                    }
-                    
+                }
+
+                .works p {
+                    padding-left: 478px;
+                    color: #60606e;
+                    font-family: "Myriad Pro";
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+
+                @media (max-width: 780px) {
                     .works p {
-                        padding-left: 478px;
-                        color: #60606e;
-                        font-family: "Myriad Pro";
-                        font-size: 14px;
-                        font-weight: 400;
+                        padding-left: 80px;
                     }
-                    
-                    @media (max-width: 780px) {
-                        .works p {
-                            padding-left: 80px;
-                        }
-                    }
-                    
+                }
+
+                .gal_1 {
+                    /* padding-top: 110px; */
+                    padding-left: 223px;
+                    padding-right: 230px;
+                    padding-bottom: 161px;
+                }
+
+                .up {
+                    margin-bottom: 0px;
+                }
+
+                #img {
+                    padding-right: 31px;
+                }
+
+                @media (max-width: 780px) {
                     .gal_1 {
-                        /* padding-top: 110px; */
-                        padding-left: 223px;
-                        padding-right: 230px;
-                        padding-bottom: 161px;
+                        padding-left: 100px;
                     }
-                    
-                    .up {
-                        margin-bottom: 0px;
-                    }
-                    
+                }
+
+                @media (max-width: 780px) {
                     #img {
-                        padding-right: 31px;
+                        padding-bottom: 15px;
                     }
-                    
-                    @media (max-width: 780px) {
-                        .gal_1 {
-                            padding-left: 100px;
-                        }
-                    }
-                    
-                    @media (max-width: 780px) {
-                        #img {
-                            padding-bottom: 15px;
-                        }
-                    }
-                    
-                    .third {
-                        height: 330px;
-                        background-color: #7beec7;
-                    }
-                    
-                    .form h1 {
-                        padding-top: 50px;
-                        padding-left: 69px;
-                        color: #ffffff;
-                        font-family: Montserrat;
-                        font-size: 30px;
-                        font-weight: 700;
-                        text-transform: uppercase;
-                    }
-                    
-                    .getInTouch {
-                        padding-top: 29px;
-                        padding-left: 69px;
-                    }
-                    
-                    .getInTouch button {
-                        border: none;
-                        width: 165px;
-                        height: 49px;
-                        background-color: #ffffff;
-                    }
-                    
-                    .getInTouch h5 {
-                        color: #7beec7;
-                        font-family: Montserrat;
-                        font-size: 14px;
-                        font-weight: 700;
-                        text-transform: uppercase;
-                    }
+                }
+
+                .third {
+                    height: 330px;
+                    background-color: #7beec7;
+                }
+
+                .form h1 {
+                    padding-top: 50px;
+                    padding-left: 69px;
+                    color: #ffffff;
+                    font-family: Montserrat;
+                    font-size: 30px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+
+                .getInTouch {
+                    padding-top: 29px;
+                    padding-left: 69px;
+                }
+
+                .getInTouch button {
+                    border: none;
+                    width: 165px;
+                    height: 49px;
+                    background-color: #ffffff;
+                }
+
+                .getInTouch h5 {
+                    color: #7beec7;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+
+                .connect h1 {
+                    color: #60606e;
+                    font-family: Montserrat;
+                    font-size: 24px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
