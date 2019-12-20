@@ -17,16 +17,16 @@
                             padding-left: 180px;
                         }
                     }
-                    
-                    .menu {
+                    /* .menu {
                         padding-top: 43px;
-                        padding-left: 79px;
+                        padding-right: 79px;
+                        padding-left: 450px;
                     }
-                    
+
                     hr {
                         line-height: 10px;
                     }
-                    
+
                     .menu_button {
                         padding: 0;
                         border: none;
@@ -34,7 +34,7 @@
                         color: inherit;
                         background-color: transparent;
                     }
-                    
+
                     .menu_button:hover {
                         padding: 0;
                         border: none;
@@ -42,6 +42,12 @@
                         color: none;
                         background-color: transparent;
                     }
+
+                    @media (max-width: 560px) {
+                        .menu {
+                            padding-left: 30px;
+                        }
+                    } */
                     
                     .title_up h2 {
                         padding-top: 225px;
@@ -102,6 +108,8 @@
                     @media (max-width: 780px) {
                         .photo {
                             padding-top: 200px;
+                            width: auto;
+                            left: 3%;
                         }
                     }
                     
@@ -151,6 +159,13 @@
                         text-transform: uppercase;
                     }
                     
+                    @media (max-width: 780px) {
+                        .button {
+                            top: 100%;
+                            left: 50%;
+                        }
+                    }
+                    
                     .reason h1 {
                         padding-top: 242px;
                         padding-left: 472px;
@@ -169,6 +184,21 @@
                         font-family: "Myriad Pro";
                         font-size: 14px;
                         font-weight: 400;
+                    }
+                    
+                    @media (max-width: 780px) {
+                        .reason h1 {
+                            padding-top: 450px;
+                            padding-left: 50px;
+                        }
+                    }
+                    
+                    @media (max-width: 780px) {
+                        .reason p {
+                            padding-top: 30px;
+                            padding-left: 15px;
+                            padding-right: 0px;
+                        }
                     }
                     
                     .variant {
@@ -203,8 +233,14 @@
                     }
                     
                     .variant_second {
-                        padding-left: 45px;
+                        padding-left: 30px;
                         line-height: 27px;
+                    }
+                    
+                    @media (max-width: 780px) {
+                        .variant_second {
+                            padding-left: 35px;
+                        }
                     }
                     
                     .variant_second img {
@@ -258,9 +294,15 @@
                     }
                     
                     .gift_second {
-                        padding-left: 153px;
+                        padding-left: 135px;
                         /* padding-right: 121px; */
                         line-height: 27px;
+                    }
+                    
+                    @media (max-width: 780px) {
+                        .gift_second {
+                            padding-left: 100px;
+                        }
                     }
                     
                     .gift_second img {
@@ -285,11 +327,23 @@
                     .reason_photo {
                         width: auto;
                         padding-top: 102px;
-                        padding-right: 49px;
+                        padding-right: 43px;
+                    }
+                    
+                    @media (max-width: 780px) {
+                        .reason_photo {
+                            padding-right: 39px
+                        }
                     }
                     
                     .works {
                         padding-top: 228px;
+                    }
+                    
+                    @media (max-width: 780px) {
+                        .works {
+                            padding-top: 100px;
+                        }
                     }
                     
                     .works h1 {
@@ -301,10 +355,84 @@
                         text-transform: uppercase;
                     }
                     
+                    @media (max-width: 780px) {
+                        .works h1 {
+                            padding-left: 100px;
+                        }
+                    }
+                    
                     .works p {
                         padding-left: 478px;
                         color: #60606e;
                         font-family: "Myriad Pro";
                         font-size: 14px;
                         font-weight: 400;
+                    }
+                    
+                    @media (max-width: 780px) {
+                        .works p {
+                            padding-left: 80px;
+                        }
+                    }
+                    
+                    .gal_1 {
+                        /* padding-top: 110px; */
+                        padding-left: 223px;
+                        padding-right: 230px;
+                        padding-bottom: 161px;
+                    }
+                    
+                    .up {
+                        margin-bottom: 0px;
+                    }
+                    
+                    #img {
+                        padding-right: 31px;
+                    }
+                    
+                    @media (max-width: 780px) {
+                        .gal_1 {
+                            padding-left: 100px;
+                        }
+                    }
+                    
+                    @media (max-width: 780px) {
+                        #img {
+                            padding-bottom: 15px;
+                        }
+                    }
+                    
+                    .third {
+                        height: 330px;
+                        background-color: #7beec7;
+                    }
+                    
+                    .form h1 {
+                        padding-top: 50px;
+                        padding-left: 69px;
+                        color: #ffffff;
+                        font-family: Montserrat;
+                        font-size: 30px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                    }
+                    
+                    .getInTouch {
+                        padding-top: 29px;
+                        padding-left: 69px;
+                    }
+                    
+                    .getInTouch button {
+                        border: none;
+                        width: 165px;
+                        height: 49px;
+                        background-color: #ffffff;
+                    }
+                    
+                    .getInTouch h5 {
+                        color: #7beec7;
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-weight: 700;
+                        text-transform: uppercase;
                     }
