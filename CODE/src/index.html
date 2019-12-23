@@ -15,15 +15,29 @@
 
 <body>
 
-    <div class="container-fluid top">
+    <div class="container top">
         <div class="row">
             <div class="col-md-6 col-lg-6 logo">
-                <a href="index.html"> <img src="img/logo.png" alt="" width="150px"></a>
+                <a href="index.html"> <img src="img/logo.png" alt="" width="100px"></a>
+            </div>
+            <div class="col-md-6  d-flex justify-content-end  ">
+                <div class="allMenu">
+                    <div class="dropdown moreInf" ">
+                        <button class="btn btn-secondary dropdown-toggle type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="img/menu.png" alt="">
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#why">О нас</a>
+                            <a class="dropdown-item" href="#portfolio">Галерея</a>
+                            <a class="dropdown-item" href="#contactUs">Контакты</a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
 
-        <div class="row  ">
+        <div class="row ">
             <div class="col-md-12 col-sm-12 d-flex justify-content-sm-center title_up ">
                 <h2>We're</h2>
             </div>
@@ -41,24 +55,34 @@
 
         <div class="row ">
             <div class="col-md-6 col-sm-12   ">
-                <div class="photo"><img src="img/1.jpg" alt=""></div>
+                <!-- <div class="photo"><img src="img/1.jpg" alt=""></div> -->
             </div>
             <div class="col-md-6  col-sm-12 text">
-                <h1>История компании</h1>
-                <p>Компания была создана в 2019 году для дипломной работы по результатам курса HTML+CSS. Профиль компании - строительство жилых домов из алюминия под ключ.</p>
-                <div class="readMore ">
-                    <a href="index.html"><button> Read more</button></a>
+                <h1 id="aboutUs">История компании</h1>
+                <div class="block1">
+
                 </div>
+                <p>Компания была создана в 2019 году для дипломной работы по результатам курса HTML+CSS. Профиль компании - строительство жилых домов из алюминия под ключ.</p>
+                <!-- <div class="readMore ">
+                    <a href="index.html"><button> Read more</button></a>
+                </div> -->
             </div>
 
         </div>
+        <div class="readMore ">
+            <a href="#why"><button> Read more</button></a>
+        </div>
+        <div class="photo"><img src="img/1.jpg" alt=""></div>
     </div>
 
-    <div class="container-fluid center">
+    <div class="container center">
 
         <div class="row">
-            <div class="col-md-12 reason ">
-                <h1>Почему выбирают нас </h1>
+            <div class="col-md-12 reason  ">
+                <h1 id="why">Почему выбирают нас </h1>
+                <div class="block2">
+
+                </div>
                 <p>В даный момент строительство домов из алюминия представлено только компанией AlHome. Конкуренция идёт лишь с компаниями, строящими дома из традиционных материалов.</p>
             </div>
         </div>
@@ -67,7 +91,7 @@
                 <div class="variant d-flex justify-content-md-around ">
                     <div class="variant_first">
                         <img src="img/1.png" alt="">
-                        <h4>Бесчетное число вариентов</h4>
+                        <h4>Бесчетное число вариaнтов</h4>
                         <p>их действительно очень много</p>
                     </div>
                     <div class="variant_second">
@@ -84,18 +108,21 @@
                     </div>
                     <div class="gift_second">
                         <img src="img/4.png" alt="">
-                        <h4>Индивидеальный подход</h4>
+                        <h4>Индивидуальный подход</h4>
                         <p>и этим все сказано</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 d-flex justify-content-md-end  reason_photo">
-                <img src="img/2.jpg" alt="">
+            <div class="col-md-6 d-flex   reason_photo">
+                <img src="img/2.jpg" alt="" width="400px">
             </div>
         </div>
         <div class="row">
             <div class="col-md-12 works">
-                <h1>Наши работы</h1>
+                <h1 id="portfolio">Наши работы</h1>
+                <div class="block3">
+
+                </div>
                 <p>вы можете заказать понравившийся варинат </p>
             </div>
         </div>
@@ -114,51 +141,68 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid middel">
+    <div class="container middel">
         <div class="row">
             <div class="col-md-6 form">
-                <h1>YOU THINK WE'RE COOL ? LET'S WORK TOGETHER</h1>
+                <h1 id- "blog">YOU THINK WE'RE COOL ? LET'S WORK TOGETHER</h1>
                 <div class="getInTouch">
                     <a href="#"><button><h5>Get in touch</h5></button></a>
                 </div>
             </div>
             <div class="col-md-6 ">
                 <div class="connect">
-                    <h1>STAY INFORMED WITH OUR NEWSLETTER</h1>
+                    <h1 id="contactUs">STAY INFORMED WITH OUR NEWSLETTER</h1>
                     <form class="form-inline">
-                        <div class="form-group mx-sm-3 mb-2">
-                            <label for="inputPassword2" class="sr-only">YOUR EMAIL</label>
-                            <input type="Your Email" class="form-control" id="inputPassword2" placeholder="Your Email">
+                        <div class="form-group mx-sm-3 mb-2 ">
+                            <label id="email" for="inputPassword2" class="sr-only"> <h5 id="title">YOUR EMAIL</h5></label>
+                            <input id="email" type="YOUR EMAIL" class="form-control" id="inputPassword2" placeholder="YOUR EMAIL">
                         </div>
-                        <a href="#"><button type="submit" class="btn btn-primary mb-2">Send</button></a>
+                        <a href="#">
+                            <div class="send"><button id="send" n type="submit" class="btn btn-primary mb-2"><h3>Send</h3></button>
+                        </a>
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid down">
+    <div class="container down">
         <div class="row">
-            <div class="col-md-8">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button> -->
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                            <hr>
-                            <a class="nav-item nav-link" href="#">About us</a>
-                            <hr>
-                            <a class="nav-item nav-link" href="#">Pricing</a>
-                            <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </div>
+            <div class="col-md-8 col-sm-6  menu ">
+                <nav class="info ">
+
+                    <div class="navbar-nav d-flex flex-row ">
+                        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                        <div class="line">-</div>
+                        <a class="nav-item nav-link" href="#aboutUs">About us</a>
+                        <div class="line">-</div>
+                        <a class="nav-item nav-link" href="#why">Services</a>
+                        <div class="line">-</div>
+
+                        <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+                        <div class="line">-</div>
+                        <a class="nav-item nav-link" href="#blog">Blog</a>
+                        <div class="line">-</div>
+                        <a class="nav-item nav-link" href="#contactUs">Contact us</a>
+
                     </div>
-                </nav>
             </div>
-            <div class="col-md-4">
+            </nav>
+
+            <div class="col-md-4  col-sm-6 copy">
+                <p>Created by akhouad 2016. All Rights Reserved</p>
+                <div class="icons d-flex flex-row justify-content-end">
+                    <a href="https://ru-ru.facebook.com/"><img id="socialNetwork" src="img/facebook.png" alt=""></a>
+                    <a href="https://twitter.com/?lang=ru"><img id="socialNetwork" src="img/twitter.png" alt=""></a>
+                    <a href="https://www.youtube.com/"><img id="socialNetwork" src="img/youtube.png" alt=""></a>
+                    <a href="https://www.instagram.com/"><img id="socialNetwork" src="img/inst.png" alt=""></a>
+                    <a href="#"><img id="socialNetwork" src="img/pic.png" alt=""></a>
+                    <a href="https://www.instagram.com/"><img src="img/insta.png" alt=""></a>
+                </div>
 
             </div>
         </div>
+    </div>
     </div>
 
 
